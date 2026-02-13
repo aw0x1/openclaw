@@ -1,0 +1,4 @@
+workspace/state/
+workspace/logs/
+workspace/.cache/
+*.log
