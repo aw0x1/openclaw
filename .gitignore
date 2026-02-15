@@ -1,4 +1,39 @@
+# OpenClaw runtime state — generated, never commit
 workspace/state/
 workspace/logs/
 workspace/.cache/
+workspace/agents/
+workspace/sessions/
+workspace/canvas/
+workspace/.bundle.hash
+
+# Secrets — never commit
+workspace/secrets/
+*.key
+*.token
+auth-token
+openclaw.json
+
+# Logs
 *.log
+/tmp/
+
+# Nix
+result
+result-*
+
+# Node (if adding local skills/plugins)
+node_modules/
+.pnpm-store/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+.direnv/
